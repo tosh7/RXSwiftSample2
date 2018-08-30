@@ -29,13 +29,16 @@ class ViewController: UIViewController {
 //        .disposed(by: dissposeBag)
         
         //subscribeで書くとこっち
-        textField.rx.text
-            .subscribe(onNext: {[weak self] value in
-                self?.label.text = value!
-            })
-            .disposed(by: dissposeBag)
+//        textField.rx.text
+//            .subscribe(onNext: {[weak self] value in
+//                self?.label.text = value!
+//            })
+//            .disposed(by: dissposeBag)
         
         //bindToで書くとこっち
+        textField.rx.text
+            .bind(to: label.rx.text)
+        .disposed(by: dissposeBag)
     }
 
 }
