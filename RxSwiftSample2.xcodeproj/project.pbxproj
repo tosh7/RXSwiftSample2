@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B48F4E42137D2FA00EC9608 /* StartViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B48F4E32137D2FA00EC9608 /* StartViewController.storyboard */; };
+		2B48F4E62137D31600EC9608 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48F4E52137D31600EC9608 /* StartViewController.swift */; };
 		2B83004821369754004830CD /* RxSwiftSample2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B83004721369754004830CD /* RxSwiftSample2Tests.swift */; };
 		2B83005321369754004830CD /* RxSwiftSample2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B83005221369754004830CD /* RxSwiftSample2UITests.swift */; };
 		2B83009E2136BF36004830CD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B83009C2136BF35004830CD /* RxCocoa.framework */; };
@@ -15,8 +17,8 @@
 		2B8300AC2136C17A004830CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B8300AA2136C17A004830CD /* Info.plist */; };
 		2B8300AE2136C1CB004830CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8300AD2136C1CB004830CD /* LaunchScreen.storyboard */; };
 		2B8300B62136C1DE004830CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8300B12136C1DE004830CD /* AppDelegate.swift */; };
-		2B8300BB2136C244004830CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8300B92136C244004830CD /* Main.storyboard */; };
-		2B8300BC2136C244004830CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8300BA2136C244004830CD /* ViewController.swift */; };
+		2B8300BB2136C244004830CD /* FirstTestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8300B92136C244004830CD /* FirstTestViewController.storyboard */; };
+		2B8300BC2136C244004830CD /* FirstTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8300BA2136C244004830CD /* FirstTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B48F4E32137D2FA00EC9608 /* StartViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartViewController.storyboard; sourceTree = "<group>"; };
+		2B48F4E52137D31600EC9608 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		2B83002F21369752004830CD /* RxSwiftSample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftSample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B83004321369754004830CD /* RxSwiftSample2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftSample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B83004721369754004830CD /* RxSwiftSample2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSample2Tests.swift; sourceTree = "<group>"; };
@@ -50,8 +54,8 @@
 		2B8300AA2136C17A004830CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B8300AD2136C1CB004830CD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B8300B12136C1DE004830CD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B8300B92136C244004830CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2B8300BA2136C244004830CD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B8300B92136C244004830CD /* FirstTestViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstTestViewController.storyboard; sourceTree = "<group>"; };
+		2B8300BA2136C244004830CD /* FirstTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B48F4E12137D2BA00EC9608 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B48F4E32137D2FA00EC9608 /* StartViewController.storyboard */,
+				2B48F4E52137D31600EC9608 /* StartViewController.swift */,
+			);
+			path = StartViewController;
+			sourceTree = "<group>";
+		};
 		2B83002621369752004830CD = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +154,8 @@
 		2B8300A12136C01C004830CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2B8300AD2136C1CB004830CD /* LaunchScreen.storyboard */,
 				2B8300A92136C17A004830CD /* Assets.xcassets */,
+				2B8300AD2136C1CB004830CD /* LaunchScreen.storyboard */,
 				2B8300AA2136C17A004830CD /* Info.plist */,
 			);
 			path = Resources;
@@ -151,8 +164,9 @@
 		2B8300A32136C042004830CD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2B8300B82136C20C004830CD /* MainViewController */,
 				2B8300B12136C1DE004830CD /* AppDelegate.swift */,
+				2B48F4E12137D2BA00EC9608 /* StartViewController */,
+				2B8300B82136C20C004830CD /* MainViewController */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -160,8 +174,8 @@
 		2B8300B82136C20C004830CD /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				2B8300B92136C244004830CD /* Main.storyboard */,
-				2B8300BA2136C244004830CD /* ViewController.swift */,
+				2B8300B92136C244004830CD /* FirstTestViewController.storyboard */,
+				2B8300BA2136C244004830CD /* FirstTestViewController.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -272,10 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B48F4E42137D2FA00EC9608 /* StartViewController.storyboard in Resources */,
 				2B8300AE2136C1CB004830CD /* LaunchScreen.storyboard in Resources */,
 				2B8300AC2136C17A004830CD /* Info.plist in Resources */,
 				2B8300AB2136C17A004830CD /* Assets.xcassets in Resources */,
-				2B8300BB2136C244004830CD /* Main.storyboard in Resources */,
+				2B8300BB2136C244004830CD /* FirstTestViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B8300BC2136C244004830CD /* ViewController.swift in Sources */,
+				2B8300BC2136C244004830CD /* FirstTestViewController.swift in Sources */,
 				2B8300B62136C1DE004830CD /* AppDelegate.swift in Sources */,
+				2B48F4E62137D31600EC9608 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,14 +496,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = RxSwiftSample2/Info.plist;
+				INFOPLIST_FILE = RxSwiftSample2/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tosh7.RxSwiftSample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RxSwiftSample2/Sources/RxSwiftSample2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,14 +521,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = RxSwiftSample2/Info.plist;
+				INFOPLIST_FILE = RxSwiftSample2/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tosh7.RxSwiftSample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RxSwiftSample2/Sources/RxSwiftSample2-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
