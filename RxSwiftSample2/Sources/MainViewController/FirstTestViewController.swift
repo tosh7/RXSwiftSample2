@@ -16,10 +16,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textField: UITextField!
-
+    @IBOutlet weak var backButton: UIButton!{
+        didSet{
+            backButton.layer.cornerRadius = 10
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         //コンソールに出力する場合は$0を使用する
 //        textField.rx.text
@@ -39,7 +44,11 @@ class ViewController: UIViewController {
         textField.rx.text
             .bind(to: label.rx.text)
         .disposed(by: dissposeBag)
+        
+        backButton.rx.tap
+            .subscribe(onNext: {
+                self.dismiss(animated: true, completion: nil)
+            })
     }
-
 }
 
